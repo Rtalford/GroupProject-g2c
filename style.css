@@ -8,7 +8,14 @@ header {
     background-color: royalblue;
 }
 
+
 .container{
     width: 85%
-    margin: 
+
+}
+
+.logo{
+    float: left;
+    weight: 100px;
+    height: 150px;
 }
