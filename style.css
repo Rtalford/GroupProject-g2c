@@ -8,6 +8,12 @@ header {
     background-color: royalblue;
 }
 
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 
 .container{
     width: 85%
@@ -16,6 +22,23 @@ header {
 
 .logo{
     float: left;
-    weight: 100px;
-    height: 150px;
+    weight: 50px;
+    height: 100px;
+    padding: 15px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li{
+    margin-left: 75px;
+    display: inline-block;
+    padding: 35px;
 }
