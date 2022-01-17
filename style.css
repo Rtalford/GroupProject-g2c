@@ -1,7 +1,7 @@
 body {
     background-color: thistle;
-    margin: 0;
-
+    margin: auto;
+    font-family: arial;
 }
 
 header {
@@ -15,8 +15,9 @@ header::after{
 }
 
 
-.container{
-    width: 85%
+.nav_bar{
+    width: 85%;
+    margin: auto;
 
 }
 
@@ -27,7 +28,7 @@ header::after{
     padding: 15px;
 }
 
-nav {
+nav{
     float: right;
     text-transform:uppercase;
     font-size: 18px;
