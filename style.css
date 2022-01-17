@@ -29,6 +29,17 @@ header::after{
 
 nav {
     float: right;
+    text-transform:uppercase;
+    font-size: 18px;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 nav ul{
@@ -40,5 +51,6 @@ nav ul{
 nav li{
     margin-left: 75px;
     display: inline-block;
-    padding: 35px;
+    padding: 50px;
 }
+
