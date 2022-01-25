@@ -58,16 +58,24 @@ nav li{
 .company{
     padding-left: 60px;
     padding-right:60px;
+    font-family: Arial;
 }
 
 .products{
     padding-left: 60px;
+    font-family: Arial;
 }
 
 .service{
     text-align: center;
+    font-family: Arial;
 }
 
 .contact{
     padding-left: 40px;
+    font-family: Arial;
+}
+
+.contact h1{
+    font-size: 35px;
 }
